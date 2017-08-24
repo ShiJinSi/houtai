@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*导航栏*/
+nav li:hover {
+    background-color: #e7e7e7;
+}
+.container .row{
+     padding-top: 30px;
+ }
+
+/*首页*/
+.index .row .right{
+    padding-left: 0;
+}
+.index .row .left{
+    padding-right: 0;
+}
+.index .one .left ul li{
+    padding:0 10px  0 20px ;
+    line-height: 36px;
+    border-bottom: 1px solid #dddddd;
+}
+.index .one .left ul li.last{
+    border: none;
+}
+.index .one .left ul li  span.left{
+     display: inline-block;
+     float: right;
+ }
+.index .one .left .panel-body{
+    padding: 0;
+}
+.index .three .one li{
+    position: relative;
+    padding: 10px;
+    margin: 20px 0;
+    background-color:#f5f5f5 ;
+    border:1px solid #d9d9d9;
+    border-radius:5px ;
+}
+.index .three .one li.ji img{
+    float: right;
+}
+.index .three .one li.zhuo  p.ge{
+    position: absolute;
+    top:30px;
+    left:120px;
+}
+.index .three .one li.zhuo p.yan{
+    position: absolute;
+    top:50px;
+    left:120px;
+}
+.index .three .one  li.ji  p.ge{
+    position: absolute;
+    bottom:40px;
+    right:120px;
+}
+.index .three .one  li.ji p.yan{
+    position: absolute;
+    bottom:20px;
+    right:120px;
+}
+.index .three .two button{
+    margin: 20px 0;
+    width: 100px;
+    height: 40px;
+}
+.index .three .two ul{
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+.index .three .two li{
+    padding: 10px;
+    line-height: 30px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.index .three .two li.last{
+    border: none;
+}
+
+/*用户列表*/
+.userList .row .col-sm-2 ul {
+    border:  1px solid #ddd;
+    border-radius: 5px;
+}
+.userList .row .col-sm-2 ul li{
+    padding: 10px 0 10px 10px;
+    line-height: 20px;
+    font-size: 16px;
+}
+.userList .row .col-sm-2 ul li a{
+    color: #333;
+    text-decoration: none;
+}
+.userList .row .col-sm-2 ul li:hover,.userList .row .col-sm-2 ul li.active{
+    background-color:#337ab7 ;
+}
+.userList .row .col-sm-2 ul li:hover a,.userList .row .col-sm-2 ul li.active a{
+    color: #ffffff;
+}
+.userList .row .col-sm-2 ul li.bor{
+    border-bottom:  1px solid #ddd;
+}
+.userList .row .col-sm-10 #list td{
+    padding: 15px 0;
+}
+.userList .row .col-sm-10 #search .alert{
+    margin-top: 20px;
+}
+.userList .row .col-sm-10 #add button.ad{
+    margin-top:50px;
+}
+
+/*内容管理*/
+.contan .row .col-sm-10 #add .form{
+    margin-top: 20px;
+}
+
+
+/*标签管理*/
+.lab .al{
+    margin-right: 20px;
+    text-align: center;
+}
+.lab .row .form input,.lab .row .form button{
+    margin-top: 10px;
+}
+
+/*页脚*/
+.footer{
+    line-height:50px;
+}

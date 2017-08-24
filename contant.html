@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+<!--导航栏-->
+<nav class="nav navbar-default">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">后台管理</a>
+                <dotton class="navbar-toggle" data-toggle="collapse" data-target="#head">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </dotton>
+            </div>
+            <div class="collapse navbar-collapse" id="head">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home "></span>&nbsp; 后台首页</a></li>
+                    <li><a href="user.list.html"><span class="glyphicon glyphicon-user"></span>&nbsp; 用户管理</a></li>
+                    <li class="active"><a href="contant.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp; 内容管理</a></li>
+                    <li><a href="label.html"><span class="glyphicon glyphicon-tag"></span>&nbsp; 标签管理</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">admin&nbsp; <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href=""><sapn class="glyphicon glyphicon-screenshot"></sapn> 前台首页</a>
+                            </li>
+                            <li>
+                                <a href=""><sapn class="glyphicon glyphicon-user"></sapn> 个人主页</a>
+                            </li>
+                            <li>
+                                <a href=""><sapn class="glyphicon glyphicon-cog"></sapn> 个人设置</a>
+                            </li>
+                            <li>
+                                <a href=""><sapn class="glyphicon glyphicon-credit-card"></sapn> 账户中心</a>
+                            </li>
+                            <li>
+                                <a href=""><sapn class="glyphicon glyphicon-heart"></sapn> 我的收藏</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li><a href=""><span class="glyphicon glyphicon-off"></span>&nbsp; 用户管理</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-1"></div>
+</nav>
+
+<!--主体-->
+<div class="container contan userList">
+    <div class="row">
+        <div class="col-sm-2">
+            <ul>
+                <li class="bor active" id="con"><a href="#">内容管理</a></li>
+                <li id="conn"><a href="#" >添加内容</a> </li>
+            </ul>
+        </div>
+        <div class="col-sm-10">
+            <h4>内容管理</h4>
+            <ul class="nav nav-tabs">
+                <li class="active" id="con1"><a href="#list" data-toggle="tab">内容管理</a> </li>
+                <li id="conn1"><a href="#add" data-toggle="tab">添加内容</a> </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="list">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>文章标题</th>
+                            <th>作者</th>
+                            <th>发布时间</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>泛Mooc职业教育，效果和就业为王</td>
+                            <td>朱朝兵</td>
+                            <td>2015/08/08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle btn btn-default " data-toggle="dropdown" >
+                                        操作&nbsp; <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">编辑</a></li>
+                                        <li><a href="">删除</a></li>
+                                        <li><a href="">全局顶置</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>泛Mooc职业教育，效果和就业为王</td>
+                            <td>朱朝兵</td>
+                            <td>2015/08/08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle btn btn-default " data-toggle="dropdown" >
+                                        操作&nbsp; <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">编辑</a></li>
+                                        <li><a href="">删除</a></li>
+                                        <li><a href="">全局顶置</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>泛Mooc职业教育，效果和就业为王</td>
+                            <td>朱朝兵</td>
+                            <td>2015/08/08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle btn btn-default " data-toggle="dropdown" >
+                                        操作&nbsp; <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">编辑</a></li>
+                                        <li><a href="">删除</a></li>
+                                        <li><a href="">全局顶置</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>泛Mooc职业教育，效果和就业为王</td>
+                            <td>朱朝兵</td>
+                            <td>2015/08/08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle btn btn-default " data-toggle="dropdown" >
+                                        操作&nbsp; <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">编辑</a></li>
+                                        <li><a href="">删除</a></li>
+                                        <li><a href="">全局顶置</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Android开发用onCreateOptionsMenu()如何创</td>
+                            <td>朱朝兵</td>
+                            <td>2015/08/08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle btn btn-default " data-toggle="dropdown" >
+                                        操作&nbsp; <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">编辑</a></li>
+                                        <li><a href="">删除</a></li>
+                                        <li><a href="">全局顶置</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>怎样才能成为优秀的OS开发工程师</td>
+                            <td>朱朝兵</td>
+                            <td>2015/08/08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle btn btn-default " data-toggle="dropdown" >
+                                        操作&nbsp; <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">编辑</a></li>
+                                        <li><a href="">删除</a></li>
+                                        <li><a href="">全局顶置</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Android今年推出了些什么新技术？</td>
+                            <td>朱朝兵</td>
+                            <td>2015/08/08</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="dropdown-toggle btn btn-default " data-toggle="dropdown" >
+                                        操作&nbsp; <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">编辑</a></li>
+                                        <li><a href="">删除</a></li>
+                                        <li><a href="">全局顶置</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <ul class="pagination pull-right">
+                        <li><a href="#">&laquo;</a> </li>
+                        <li class="active"><a href="#">1</a> </li>
+                        <li><a href="#">2</a> </li>
+                        <li><a href="#">3</a> </li>
+                        <li><a href="#">4</a> </li>
+                        <li><a href="#">5</a> </li>
+                        <li><a href="#">6</a> </li>
+                        <li><a href="#">&raquo;</a> </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="add">
+                    <div class="form">
+                        <div class="form-group">
+                            <label >标题</label>
+                            <input class="form-control" type="text"placeholder=" 请输入文章标题">
+                        </div>
+                        <div class="form-group">
+                            <label >文章内容</label>
+                            <textarea class="form-control" rows="10" placeholder=" 请输入文章的征文部分"></textarea>
+                        </div>
+                       <input type="checkbox"> 全局顶置
+                        <button type="submit"  class="btn btn-default pull-right form-control">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--页脚-->
+<div class="footer">
+    <p class="text-center">
+        Copyright &copy; 2012-2015 www.qingruan.com ICP备xxxxxxxx号
+    </p>
+</div>
+
+<script type="text/javascript" src='js/jquery.min.js'></script>
+<script src='js/bootstrap.min.js'></script>
+<script type="text/javascript">
+    document.getElementsByTagName("html")[0].style.fontSize=(window.innerWidth/1980)*100+"px";
+
+    $("#con").click(function () {
+        $("#conn").removeClass("active");
+        $("#con").addClass("active");
+
+        $("#conn1").removeClass("active");
+        $("#con1").addClass("active");
+
+        $("#add").removeClass("active");
+        $("#list").addClass("active");
+    });
+
+
+    $("#conn").click(function () {
+        $("#con").removeClass("active");
+        $("#conn").addClass("active");
+
+        $("#con1").removeClass("active");
+        $("#conn1").addClass("active");
+
+        $("#list").removeClass("active");
+        $("#add").addClass("active");
+    });
+
+    $("#con1").click(function () {
+        $("#conn").removeClass("active");
+        $("#con").addClass("active");
+    });
+
+    $("#conn1").click(function () {
+        $("#con").removeClass("active");
+        $("#conn").addClass("active");
+    })
+</script>
+</body>
+</html>
